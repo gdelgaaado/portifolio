@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .logo{ width: 45px;
+        height: 40px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+      }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 10px;
+  height: 70;
+  width: 100;
+  align-items: center;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+font-family: 'Press Start 2P', cursive;
+font-size: 13px;
+margin-right: 20px;
+flex-wrap: wrap;
+     }
+
+.menu li a{
+  list-style: none;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  line-height: 30px;
+  
+}
+        
+
+body{
+  background-color: #202021;
+  width: 100%;
+  height: 100vh;
+  background-image:url(background_image/CÉU\ PIXEL.gif);
+  background-repeat: cover;
+  min-width: 400px;
+  }
+
+  #PC{
+    width: 90%;
+    margin-left: 8%;
+    
+  }
+
+.container{
+  display:flex;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap; 
+}
+  
+.container div{
+  flex: 1 1 100px;
+
+}
+
+#APRESENTACAO{
+  font-size: 25px;
+  color: aliceblue;
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 30px;
+  margin-top: 90px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+span{
+  font-family: 'Press Start 2P', cursive;
+  color: crimson;
+  font-size: 35px;
+  
+}
+
+#SOBREMIM{
+  color: crimson;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: 180px;
+  font-size: 30px;
+}
+
+#PERFIL{
+  margin-left:50px;
+  border-radius: 180px;
+}
+
+
+#HARD, #SOFT{
+  
+}
+
+#SOBRETEXTO{
+  color: white;
+  margin: 100px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 30px;
+  text-align: left;
+  min-width: 300px;
+  position: relative;
+  right: 80px;
+}
+
+#PROJETOS{
+  color: crimson;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.projetos-container{
+  display: inline-block;
+  background-color: white;}
+
+
+
+  
+ 
+
+  
+
+
+ 
+        
+
+
+
+
